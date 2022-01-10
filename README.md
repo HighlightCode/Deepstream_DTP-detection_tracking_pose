@@ -5,7 +5,7 @@
 
 
 # Deepstream_DTP-detection_tracking_pose #
-inspired by https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation.git project, i made a simple project to pose estimate single person with Object Detection -> Object Tracking -> Pose Estimation process . The large Difference with the previous work is i use the <b>detection -> tracking method (like updown method) </b> to detect the small object things. so as you can see in my project, the Tensor RT Engine detects the small object very well. the performance benchmark for my project is that i can get over >20fps. 
+inspired by https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation.git project, i made a simple project to pose estimate single person with <b>Object Detection -> Object Tracking -> Pose Estimation process</b> . The large Difference from previous work is that i use the <b>detection -> tracking method (like updown method) </b> to detect the small object things. so as you can see in my project, the Tensor RT Engine detects the small object very well. the performance benchmark for my project is that i can get over >20fps. 
 
 
 
